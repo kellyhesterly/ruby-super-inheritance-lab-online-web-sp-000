@@ -9,9 +9,6 @@ class ChattyStudent < Student
   end
 
   def raise_hand
-    binding.pry
-    super
-    binding.pry
-    9.times {"Pick me!"}
+    10.times do "Pick me!"
   end
 end
